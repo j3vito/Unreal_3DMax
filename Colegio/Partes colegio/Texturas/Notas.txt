@@ -1,0 +1,1 @@
+Una trim sheet te sirve para dar textura a marcos de ventanas, puertas o barandillas sin modelar los detalles.
