@@ -1,0 +1,75 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Wood_Floor
+Ka 0.000000 0.000000 0.000000
+Kd 0.607843 0.411765 0.239216
+Ks 0.330000 0.330000 0.330000
+
+newmtl Rodapie
+Ka 0.000000 0.000000 0.000000
+Kd 0.168627 0.121569 0.094118
+Ks 0.330000 0.330000 0.330000
+map_Kd ParedDobleConPuerta_y_MarcoClase_3/Rodapie.jpg
+
+newmtl ParedInterior
+Ka 0.000000 0.000000 0.000000
+Kd 0.843137 0.831373 0.800000
+Ks 0.330000 0.330000 0.330000
+map_Kd ParedDobleConPuerta_y_MarcoClase_3/ParedInterior.jpg
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Granite_Dark_Gray
+Ka 0.000000 0.000000 0.000000
+Kd 0.270588 0.266667 0.266667
+Ks 0.330000 0.330000 0.330000
+map_Kd ParedDobleConPuerta_y_MarcoClase_3/Granite_Dark_Gray.jpg
+
+newmtl Metal_Rough
+Ka 0.000000 0.000000 0.000000
+Kd 0.600000 0.615686 0.627451
+Ks 0.330000 0.330000 0.330000
+map_Kd ParedDobleConPuerta_y_MarcoClase_3/Metal_Rough.jpg
+
+newmtl Metal_Aluminum_Anodized
+Ka 0.000000 0.000000 0.000000
+Kd 0.792157 0.819608 0.858824
+Ks 0.330000 0.330000 0.330000
+map_Kd ParedDobleConPuerta_y_MarcoClase_3/Metal_Aluminum_Anodized.jpg
+
+newmtl Translucent_Glass_Safety
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.921569 0.956863
+Ks 0.330000 0.330000 0.330000
+d 0.500000
+map_Kd ParedDobleConPuerta_y_MarcoClase_3/Translucent_Glass_Safety.jpg
+
+newmtl Tile_Navy
+Ka 0.000000 0.000000 0.000000
+Kd 0.168627 0.184314 0.227451
+Ks 0.330000 0.330000 0.330000
+map_Kd ParedDobleConPuerta_y_MarcoClase_3/Tile_Navy.jpg
+
+newmtl _
+Ka 0.000000 0.000000 0.000000
+Kd 0.682353 0.682353 0.682353
+Ks 0.330000 0.330000 0.330000
+map_Kd ParedDobleConPuerta_y_MarcoClase_3/_.jpg
+
+newmtl Translucent_Glass_Sky_Reflection
+Ka 0.000000 0.000000 0.000000
+Kd 0.494118 0.541176 0.717647
+Ks 0.330000 0.330000 0.330000
+d 0.520000
+map_Kd ParedDobleConPuerta_y_MarcoClase_3/Translucent_Glass_Sky_Reflection.jpg
+
+newmtl Carrera_Marble
+Ka 0.000000 0.000000 0.000000
+Kd 0.811765 0.811765 0.811765
+Ks 0.330000 0.330000 0.330000
+
