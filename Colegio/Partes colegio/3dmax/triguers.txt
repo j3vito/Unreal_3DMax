@@ -194,3 +194,64 @@ Cómo hacer que el jugador se “pegue” a la plataforma al saltar encima (muy 
 
 Dime qué parte te gustaría profundizar y seguimos paso a paso. 😊
 ¡Esto va a quedar muy chulo en tu gimnasio inundado!
+
+
+
+
+
+
+
+
+otra cosa. es posible hacer que cuando entre en una clase , por ejemplo, cambie la textura de la clase por algo mas oscuro y terrorifico?¡Sí, es totalmente posible! Y queda muy chulo para crear un efecto de “el colegio se vuelve terrorífico”.
+Hay varias formas de hacerlo. Te explico las más fáciles para principiantes, ordenadas de más simple a más potente:
+
+✅ Método 1: Cambiar el Material con Material Instance Dynamic (Recomendado)
+Este es el mejor para principiantes y da muy buen resultado.
+Paso a paso:
+
+Prepara dos versiones del material:
+Abre el material de las paredes/suelo/techo de la clase.
+Haz clic derecho sobre el material → Create Material Instance.
+Crea dos instancias:
+MI_ClaseNormal
+MI_ClaseTerror
+
+
+Edita el Material Instance Terror:
+Ponle colores más oscuros (negro, gris oscuro, rojo sangre tenue).
+Baja el brillo.
+Puedes añadir una textura de suciedad, sangre, grietas, etc. (puedes descargar texturas gratuitas de internet).
+
+Crea el Trigger:
+Coloca un Box Trigger en la entrada de la clase.
+Abre el Level Blueprint o crea un Blueprint Actor para la clase.
+
+En el Blueprint:
+On Component Begin Overlap (del trigger)
+Obtén todos los Static Meshes de la clase (o los que quieras cambiar).
+Usa el nodo Create Dynamic Material Instance y aplícalo al mesh.
+O directamente Set Material con tu MI_ClaseTerror.
+
+
+
+✅ Método 2: Tener dos versiones de la clase (Más fácil)
+
+Duplica toda la clase (o las partes importantes: paredes, suelo, pupitres).
+Una versión normal y otra versión “terrorífica” (cambia texturas manualmente).
+Cuando el jugador entra → Set Visibility (oculta la versión normal y muestra la terrorífica).
+
+Este método es más simple si no quieres complicarte con materiales dinámicos.
+
+✅ Método 3: Efecto general Terrorífico (muy atmosférico)
+Además de cambiar texturas, puedes activar:
+
+Un Post Process Volume dentro de la clase que haga todo más oscuro, con viñeteo, grano de película, color rojo tenue, etc.
+Luces de emergencia parpadeantes.
+Sonidos de ambiente terroríficos (viento, susurros, etc.).
+Niebla o partículas de polvo.
+
+
+¿Es difícil?
+
+Método 1 y 2: Nivel Fácil-Medio (perfecto para tu curso).
+Puedes empezar con solo 1 o 2 clases cambiando de estilo para no complicarte mucho.
